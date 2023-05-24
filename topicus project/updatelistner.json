@@ -1,0 +1,30 @@
+{
+    "definition": {
+        "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+        "actions": {
+            "Invoke_a_workflow_in_this_workflow_app": {
+                "inputs": {
+                    "host": {
+                        "workflow": {
+                            "id": "zabbixreader"
+                        }
+                    }
+                },
+                "runAfter": {},
+                "type": "Workflow"
+            }
+        },
+        "contentVersion": "1.0.0.0",
+        "outputs": {},
+        "triggers": {
+            "manual": {
+                "inputs": {
+                    "schema": {}
+                },
+                "kind": "Http",
+                "type": "Request"
+            }
+        }
+    },
+    "kind": "Stateful"
+}

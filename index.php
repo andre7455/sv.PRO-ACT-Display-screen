@@ -6,7 +6,7 @@ $interval = 8000; // interval between each image transition in milliseconds
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Slideshow</title>
+    <title>pro-act</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <style>
